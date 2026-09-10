@@ -1,0 +1,194 @@
+[
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: Who carried out this campaign?",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "ranking": {
+      "ranked_list": [
+        {
+          "provider": "mistral",
+          "model": "mistral-large-latest",
+          "rank": 1,
+          "usability_grade": "Excellent",
+          "rationale": "This response provides a comprehensive overview of the campaign, including detailed insights into the threat actor, business impact, and recommended focus areas. It effectively communicates the strategic relevance and potential risks to the organization, making it highly useful for executives.",
+          "general_usability": "The response is clear, detailed, and provides actionable insights, making it highly usable for decision-makers."
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-5-20250929",
+          "rank": 2,
+          "usability_grade": "Good",
+          "rationale": "The response offers a clear attribution and outlines the business impact effectively. However, it lacks specific recommendations for mitigating the risks, which slightly reduces its completeness.",
+          "general_usability": "The response is clear and relevant but could benefit from more actionable recommendations."
+        },
+        {
+          "provider": "ollama",
+          "model": "qwen2.5:14b",
+          "rank": 3,
+          "usability_grade": "Good",
+          "rationale": "This response provides a concise overview of the campaign and its business impact. It includes some tactical details but lacks depth in strategic recommendations, which affects its completeness.",
+          "general_usability": "The response is clear and informative but could be enhanced with more strategic insights."
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "rank": 4,
+          "usability_grade": "Fair",
+          "rationale": "The response provides basic attribution and mentions the importance of understanding the threat actors. However, it lacks detailed insights into the campaign's impact and strategic recommendations.",
+          "general_usability": "The response is clear but lacks depth and actionable insights, limiting its usefulness."
+        },
+        {
+          "provider": "ollama",
+          "model": "llama3.1",
+          "rank": 5,
+          "usability_grade": "Fair",
+          "rationale": "The response provides basic attribution and a brief mention of business impact. However, it lacks detailed insights and strategic recommendations, affecting its completeness.",
+          "general_usability": "The response is clear but lacks depth and actionable insights, limiting its usefulness."
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "rank": 6,
+          "usability_grade": "Poor",
+          "rationale": "The response provides only basic attribution without any additional context or insights into the campaign's impact or strategic relevance, making it the least useful for executives.",
+          "general_usability": "The response is clear but lacks any depth or actionable insights, making it minimally useful."
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "rank": 7,
+          "usability_grade": "Poor",
+          "rationale": "The response provides only basic attribution without any additional context or insights into the campaign's impact or strategic relevance, making it the least useful for executives.",
+          "general_usability": "The response is clear but lacks any depth or actionable insights, making it minimally useful."
+        }
+      ]
+    }
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: How can domains be compromised?",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
+    "ranking": {
+      "ranked_list": [
+        {
+          "provider": "mistral",
+          "model": "mistral-large-latest",
+          "rank": 1,
+          "usability_grade": "Excellent",
+          "rationale": "This response provides a comprehensive overview of domain compromise methods, business impacts, and strategic recommendations. It is clear, detailed, and highly relevant to business executives, offering actionable insights.",
+          "general_usability": "The response is highly usable for executives, offering clear explanations and practical advice."
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "rank": 2,
+          "usability_grade": "Good",
+          "rationale": "The response is clear and concise, focusing on the business impact and risk of domain compromise. It lacks some technical depth but is well-suited for an executive audience.",
+          "general_usability": "The response is usable, providing a good balance of clarity and business relevance."
+        },
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-5-20250929",
+          "rank": 3,
+          "usability_grade": "Good",
+          "rationale": "This response offers a good mix of specific examples and general methods, with a strong focus on business impact. However, it could benefit from more detailed strategic recommendations.",
+          "general_usability": "The response is usable, with clear explanations and relevant business context."
+        },
+        {
+          "provider": "ollama",
+          "model": "llama3.1",
+          "rank": 4,
+          "usability_grade": "Fair",
+          "rationale": "The response provides a basic overview of domain compromise methods and business impact. It lacks depth in strategic recommendations and technical details.",
+          "general_usability": "The response is somewhat usable, but lacks depth in strategic advice."
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "rank": 5,
+          "usability_grade": "Fair",
+          "rationale": "While the response covers methods and impacts, it is less detailed and lacks specific strategic recommendations, making it less useful for executives seeking actionable insights.",
+          "general_usability": "The response is somewhat usable, but could be improved with more detailed strategic advice."
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "rank": 6,
+          "usability_grade": "Poor",
+          "rationale": "The response is brief and lacks depth in both technical and strategic aspects. It does not provide sufficient information for executives to understand the full scope of domain compromise risks.",
+          "general_usability": "The response is not very usable due to its lack of depth and actionable insights."
+        },
+        {
+          "provider": "ollama",
+          "model": "qwen2.5:14b",
+          "rank": 7,
+          "usability_grade": "Poor",
+          "rationale": "The response is fragmented and lacks coherence, making it difficult for executives to extract meaningful insights. It also lacks strategic recommendations.",
+          "general_usability": "The response is not very usable due to its lack of clarity and actionable insights."
+        }
+      ]
+    }
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: Can you explain me the technique Multi-Factor Authentication Request Generation?",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",
+    "ranking": {
+      "ranked_list": [
+        {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-5-20250929",
+          "rank": 1,
+          "usability_grade": "Excellent",
+          "rationale": "This response provides a clear and comprehensive explanation of the technique, including how it works, its business impact, and real-world context. It effectively communicates the risks and strategic relevance to a non-technical executive, making it highly usable.",
+          "general_usability": "The response is well-structured and easy to understand, making it highly usable for executives seeking to understand the implications of this technique."
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o",
+          "rank": 2,
+          "usability_grade": "Good",
+          "rationale": "The response is clear and concise, explaining the technique and its business impact effectively. However, it lacks some depth in real-world context and strategic recommendations, which slightly reduces its completeness.",
+          "general_usability": "The response is straightforward and provides a good overview of the technique and its risks, making it useful for executives."
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-large-latest",
+          "rank": 3,
+          "usability_grade": "Good",
+          "rationale": "This response offers a detailed explanation of the technique and its business implications, including specific threat actors. It provides actionable recommendations, enhancing its strategic relevance. However, it could be more concise for executive readability.",
+          "general_usability": "The response is informative and provides valuable insights, though it may be slightly dense for quick executive consumption."
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "rank": 4,
+          "usability_grade": "Fair",
+          "rationale": "The response covers the basic description and business impact of the technique but lacks depth in strategic recommendations and real-world examples. It is less comprehensive compared to higher-ranked responses.",
+          "general_usability": "The response is adequate for understanding the basic concept but lacks depth for strategic decision-making."
+        },
+        {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "rank": 5,
+          "usability_grade": "Fair",
+          "rationale": "While the response provides a basic explanation of the technique and its risks, it lacks depth and strategic recommendations. It is less detailed compared to other responses, reducing its overall completeness.",
+          "general_usability": "The response is basic and may not provide enough information for executives seeking a deeper understanding of the technique."
+        },
+        {
+          "provider": "ollama",
+          "model": "qwen2.5:14b",
+          "rank": 6,
+          "usability_grade": "Poor",
+          "rationale": "The response provides a minimal explanation of the technique and its business impact. It lacks depth, strategic recommendations, and real-world context, making it less useful for executive decision-making.",
+          "general_usability": "The response is too brief and lacks the necessary detail to be useful for executives."
+        },
+        {
+          "provider": "ollama",
+          "model": "llama3.1",
+          "rank": 7,
+          "usability_grade": "Poor",
+          "rationale": "This response offers a very basic description of the technique without sufficient detail on business impact or strategic relevance. It is the least comprehensive and informative of all responses.",
+          "general_usability": "The response is overly simplistic and does not provide enough information for meaningful executive insights."
+        }
+      ]
+    }
+  }
+]

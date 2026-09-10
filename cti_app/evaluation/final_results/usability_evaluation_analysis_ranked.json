@@ -1,0 +1,57 @@
+{
+  "mistral_mistral-large-latest": {
+    "average_rank": 1.6666666666666667,
+    "average_grade_score": 3.6666666666666665,
+    "grade_distribution": {
+      "Excellent": 2,
+      "Good": 1
+    }
+  },
+  "anthropic_claude-sonnet-4-5-20250929": {
+    "average_rank": 2.0,
+    "average_grade_score": 3.3333333333333335,
+    "grade_distribution": {
+      "Good": 2,
+      "Excellent": 1
+    }
+  },
+  "ollama_qwen2.5:14b": {
+    "average_rank": 5.333333333333333,
+    "average_grade_score": 1.6666666666666667,
+    "grade_distribution": {
+      "Good": 1,
+      "Poor": 2
+    }
+  },
+  "openai_gpt-4o-mini": {
+    "average_rank": 4.666666666666667,
+    "average_grade_score": 2.0,
+    "grade_distribution": {
+      "Fair": 3
+    }
+  },
+  "ollama_llama3.1": {
+    "average_rank": 5.333333333333333,
+    "average_grade_score": 1.6666666666666667,
+    "grade_distribution": {
+      "Fair": 2,
+      "Poor": 1
+    }
+  },
+  "openai_gpt-4o": {
+    "average_rank": 3.3333333333333335,
+    "average_grade_score": 2.3333333333333335,
+    "grade_distribution": {
+      "Poor": 1,
+      "Good": 2
+    }
+  },
+  "mistral_mistral-small-latest": {
+    "average_rank": 5.666666666666667,
+    "average_grade_score": 1.3333333333333333,
+    "grade_distribution": {
+      "Poor": 2,
+      "Fair": 1
+    }
+  }
+}

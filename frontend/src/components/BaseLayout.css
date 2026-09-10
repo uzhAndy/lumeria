@@ -1,0 +1,18 @@
+/* Makes sure that the navbar has a fixed positioning */
+.navbar-custom{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px; /* Fixed height for the navbar */
+    z-index: 10; /* Ensure the navbar stays on top */
+    background-color: cornflowerblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Navigation bar shadow for depth */
+    max-height: 100%; /* Ensure collapse items do not exceed the parent height */
+    white-space: nowrap; /* Prevent text from wrapping and taking more space */
+
+    display: flex;           /* Necessary to center children */
+    align-items: center;     /* Vertical centering of links */
+    padding-left: 1rem;
+    /* justify-content: center; /* Horizontal centering of links */
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: Who carried out this campaign?",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "evaluations": [
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand. It effectively highlights the business relevance by explaining the potential risks and impacts of the campaign, such as financial losses and reputational damage. The response is complete, addressing the key details of the campaign, including the timeframe, target sectors, and motivation, as well as the strategic implications for businesses.",
+        "general_usability": "The response is highly usable for executives as it provides a clear attribution of the campaign, outlines the business impact, and emphasizes the strategic relevance of the threat. It is well-structured and focuses on the aspects that are most important for decision-makers.",
+        "provider": "anthropic",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response clearly identifies the group responsible for the campaign 'C0027', which is Scattered Spider. This is straightforward and easy for a non-technical executive to understand. However, it lacks additional context about the group, such as their motives, methods, or potential impact, which would enhance business relevance and strategic understanding.",
+        "general_usability": "The response is clear and direct, making it easy to understand. However, it could be improved by providing more context about the threat actor and the implications of their activities, which would help executives better assess the risk and impact on their organization.",
+        "provider": "openai",
+        "model": "gpt-4o"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response clearly identifies the group responsible for the campaign 'C0027' and provides relevant business impact information. It highlights the importance of understanding threat actors for risk assessment and strategic planning. However, it could be improved by providing more context on the MITRE ATT&CK framework for a complete understanding.",
+        "general_usability": "The response is clear and relevant to business executives, focusing on the strategic importance of identifying threat actors. It effectively communicates the risk and impact associated with the campaign, though it could benefit from additional context on the MITRE ATT&CK framework for completeness.",
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, providing a straightforward answer to the query about who carried out the campaign. It effectively explains the identity and tactics of Scattered Spider in a manner that is accessible to non-technical executives. The business impact section highlights the risks and potential consequences of the campaign, making it highly relevant to business leaders. The response also offers strategic recommendations, addressing all important points comprehensively.",
+        "general_usability": "The response is highly usable for executives, offering clarity on the threat actor involved, the business implications of their actions, and actionable steps to mitigate risks. It balances technical details with business relevance, ensuring that the information is both informative and applicable to strategic decision-making.",
+        "provider": "mistral",
+        "model": "mistral-large-latest"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response clearly identifies 'Scattered Spider' as the entity responsible for Campaign C0027, which is straightforward and easy for a non-technical executive to understand. However, it lacks additional context about the group, such as their motives, methods, or potential impact, which would enhance business relevance and completeness.",
+        "general_usability": "The response is clear and direct, making it easy to understand. However, it could be improved by providing more information on the implications of Scattered Spider's involvement, such as potential risks or strategic considerations for the business.",
+        "provider": "mistral",
+        "model": "mistral-small-latest"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response clearly identifies the group responsible for the campaign 'C0027' as 'Scattered Spider' and provides a brief overview of the business impact and risk associated with the campaign. It is concise and uses straightforward language, making it accessible to a non-technical executive. However, it could be improved by providing more context on the MITRE ATT&CK framework and its relevance to understanding such campaigns.",
+        "general_usability": "The response is generally usable for an executive audience as it succinctly identifies the threat actor and outlines the potential business impact. It effectively communicates the risk and strategic relevance of the campaign, though it could benefit from additional context on the MITRE ATT&CK framework to enhance understanding.",
+        "provider": "ollama",
+        "model": "llama3.1"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand. It effectively highlights the business relevance by discussing the potential risks and impacts, such as data exposure, operational disruption, and financial risk. The response is complete, addressing all important points, including the identity of the threat actor, the tactics used, and the strategic importance of implementing robust security measures.",
+        "general_usability": "The response is highly usable for an executive audience. It provides a clear identification of the threat actor involved in the campaign, outlines the tactics used, and emphasizes the business impact and strategic importance of cybersecurity measures. The language is accessible, and the structure is logical, making it easy to follow and understand.",
+        "provider": "ollama",
+        "model": "qwen2.5:14b"
+      }
+    ]
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: How can domains be compromised?",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
+    "evaluations": [
+      {
+        "usability_grade": "Good",
+        "rationale": "The response provides a clear explanation of the business impact of domain compromise, which is crucial for executives to understand the strategic risks involved. It effectively uses the SolarWinds example to illustrate the potential consequences. However, the technical methods of domain compromise are not detailed, which might leave some gaps in understanding the full scope of how domains can be compromised.",
+        "general_usability": "The response is well-structured and highlights the strategic relevance and risks associated with domain compromise. It is accessible to non-technical executives, focusing on the business impact rather than technical specifics. However, it could be improved by briefly outlining some common technical methods of domain compromise to provide a more complete picture.",
+        "provider": "anthropic",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand. It effectively highlights the business risks and impacts associated with domain compromise, such as reputation damage, operational disruption, data exposure, and financial loss. The explanation is complete, covering all important points relevant to the query.",
+        "general_usability": "The response is highly usable for an executive audience. It provides a clear and comprehensive overview of the risks and impacts of domain compromise, making it relevant for strategic decision-making. The language is accessible, avoiding technical jargon, and focuses on business implications, which enhances its relevance and clarity.",
+        "provider": "openai",
+        "model": "gpt-4o"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and structured, making it easy for a non-technical executive to understand. It effectively highlights the risks, impacts, and strategic relevance of domain compromise, both in general and in the context of the SolarWinds Compromise. The response is comprehensive, covering various methods of compromise and their business impacts.",
+        "general_usability": "The response is highly usable for executives as it provides a clear overview of domain compromise methods and their implications. It connects the general concept to a specific case (SolarWinds), enhancing its relevance and strategic insight.",
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is well-structured and clearly explains the concept of domain compromise in a manner that is accessible to non-technical executives. It effectively highlights the business risks, impacts, and strategic relevance of domain compromise, using both general insights and specific examples from the SolarWinds incident. The response is comprehensive, covering various methods of domain compromise and providing actionable strategic recommendations.",
+        "general_usability": "The response is highly usable for executives as it breaks down complex cybersecurity concepts into understandable language, emphasizes the business implications, and offers clear strategic actions. It balances technical details with business context, making it a valuable resource for decision-makers concerned with cybersecurity risks.",
+        "provider": "mistral",
+        "model": "mistral-large-latest"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response provides a clear and structured explanation of how domains can be compromised, using examples relevant to both the SolarWinds Compromise and general MITRE ATT&CK framework techniques. It highlights the business impact effectively, making it relevant for executives. However, it could be improved by simplifying some technical terms and providing more context on the strategic implications.",
+        "general_usability": "The response is generally easy to understand for a non-technical executive, with clear examples and a focus on business impact. It effectively communicates the risks and potential consequences of domain compromise, though it could benefit from slightly more simplification and strategic context.",
+        "provider": "mistral",
+        "model": "mistral-small-latest"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response provides a clear explanation of how domains can be compromised, referencing both the SolarWinds Compromise and the MITRE ATT&CK framework. It effectively highlights the business impact and risks associated with domain compromise, making it relevant for executives. The recommendations are practical and actionable, enhancing the strategic relevance of the response. However, the technical terms like 'C2' and 'SAML signing certificate' might require further simplification for non-technical executives.",
+        "general_usability": "The response is well-structured and provides a comprehensive overview of domain compromise, its risks, and mitigation strategies. It balances technical details with business implications, making it useful for executives. Simplifying some technical jargon could improve clarity for a non-technical audience.",
+        "provider": "ollama",
+        "model": "llama3.1"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response provides a clear and structured explanation of how domains can be compromised, with specific references to the SolarWinds compromise and general tactics from the MITRE ATT&CK framework. It effectively highlights the business impact and strategic relevance, making it understandable for a non-technical executive. However, some technical terms like 'APT29' and 'C2 infrastructure' might require further simplification or explanation for complete clarity.",
+        "general_usability": "The response is well-organized and covers the key aspects of domain compromise, including the nature of threats, business impact, and strategic measures. It balances technical details with business implications, making it relevant for executives concerned with cybersecurity risks. Simplifying some technical jargon could enhance clarity further.",
+        "provider": "ollama",
+        "model": "qwen2.5:14b"
+      }
+    ]
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: Can you explain me the technique Multi-Factor Authentication Request Generation?",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",
+    "evaluations": [
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and well-structured, making it easy for a non-technical executive to understand the concept of Multi-Factor Authentication Request Generation. It effectively highlights the business relevance by discussing the risks, impacts, and strategic implications of the technique. The response is complete, covering what the technique is, how it works, its business impact, and real-world context, ensuring all important points are addressed.",
+        "general_usability": "The response is highly usable for an executive audience. It provides a comprehensive overview of the technique, its implications, and its relevance to business security, all in a clear and concise manner. The inclusion of real-world context and the note about its relation to the KV Botnet Activity campaign further enhance its relevance and completeness.",
+        "provider": "anthropic",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response provides a clear and concise explanation of the technique, making it accessible to a non-technical executive. It effectively highlights the business impact and risks associated with the technique, emphasizing the potential for unauthorized access and the importance of robust MFA configurations. However, it could be improved by providing more strategic recommendations or mitigation strategies.",
+        "general_usability": "The response is well-structured and easy to understand, making it suitable for an executive audience. It addresses the key points of the technique and its implications for business security, but could benefit from additional context or examples to enhance completeness.",
+        "provider": "openai",
+        "model": "gpt-4o"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand the concept of Multi-Factor Authentication Request Generation. It effectively highlights the business risks and impacts, such as account compromise, user fatigue, reputational damage, and regulatory risks, which are highly relevant to strategic decision-making. The explanation is complete, covering both the technique and its implications.",
+        "general_usability": "The response is highly usable for an executive audience. It provides a straightforward explanation of the technique and its potential impacts on the business, allowing executives to grasp the importance of addressing this cybersecurity threat. The focus on business relevance and risk makes it particularly valuable for strategic planning and risk management.",
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand the concept of Multi-Factor Authentication Request Generation. It effectively highlights the business risks, such as account takeover, operational disruption, and reputation damage, which are highly relevant to executives. The response also provides strategic recommendations for mitigating these risks, ensuring completeness.",
+        "general_usability": "The response is well-structured and provides a comprehensive overview of the technique, its implications, and actionable steps for businesses. It balances technical details with business relevance, making it highly usable for an executive audience.",
+        "provider": "mistral",
+        "model": "mistral-large-latest"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand the concept of Multi-Factor Authentication Request Generation. It effectively highlights the business risks and impacts, such as account takeover, operational disruption, regulatory exposure, and reputation damage, which are crucial for strategic decision-making. The response is complete, covering what the technique is, its business implications, and the context in which it is used.",
+        "general_usability": "The response is highly usable for an executive audience. It provides a straightforward explanation of the technique and its potential impacts on the business, allowing executives to grasp the strategic importance and risks associated with this cybersecurity threat. The inclusion of specific examples and potential consequences enhances its relevance and clarity.",
+        "provider": "mistral",
+        "model": "mistral-small-latest"
+      },
+      {
+        "usability_grade": "Good",
+        "rationale": "The response is clear and provides a straightforward explanation of the technique, making it accessible to a non-technical executive. It highlights the business impact and risk by explaining how adversaries can exploit MFA to gain unauthorized access, which is relevant for strategic decision-making. However, it could be improved by providing more context on how this technique fits within the broader cybersecurity landscape or specific campaigns like 'KV Botnet Activity'.",
+        "general_usability": "The response is generally usable for an executive audience, as it clearly outlines the risk and impact of the technique. It effectively communicates the psychological aspect of the threat, which is crucial for understanding its strategic relevance. However, it lacks completeness in terms of connecting the technique to specific campaigns or broader cybersecurity strategies.",
+        "provider": "ollama",
+        "model": "llama3.1"
+      },
+      {
+        "usability_grade": "Excellent",
+        "rationale": "The response is clear and concise, making it easy for a non-technical executive to understand the concept of Multi-Factor Authentication Request Generation. It effectively highlights the business risks and impacts, such as data exposure, operational disruption, and financial losses, which are crucial for strategic decision-making. The explanation is complete, covering both the technique and its implications.",
+        "general_usability": "The response is highly usable for an executive audience. It provides a straightforward explanation of the technique and its potential impact on business operations, making it relevant for strategic planning and risk management discussions.",
+        "provider": "ollama",
+        "model": "qwen2.5:14b"
+      }
+    ]
+  }
+]

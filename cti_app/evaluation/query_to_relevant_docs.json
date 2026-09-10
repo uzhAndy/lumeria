@@ -1,0 +1,337 @@
+[
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: What was the goal of this campaign?",
+    "stix_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "comment": "General Campaign Question",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: Who was behind this campaign?",
+    "stix_id": [
+    "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b"
+    ],
+    "comment": "General Campaign and attributed Group Question (answer can be found in both entries)",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: Which companies were targeted in this campaign?",
+    "stix_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "comment": "General Campaign Question",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How did the attackers trick people into giving their passwords?",
+    "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "target_ref": "attack-pattern--bb5e59c4-abe7-40c7-8196-e373cb1e5974",
+    "comment": "Spearphishing Voice",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: What is Spearphishing Voice?",
+    "stix_id": "attack-pattern--bb5e59c4-abe7-40c7-8196-e373cb1e5974",
+    "comment": "Spearphishing Voice",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How can organizations detect Spearphishing Voice attacks?",
+    "stix_id": "x-mitre-detection-strategy--ce26e75b-f8bf-45d5-b0fd-601e3d8fd800",
+    "comment": "Detection of Spearphishing Voice",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How can companies reduce the risk of voice phishing attacks?",
+    "stix_id": "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
+    "comment": "Mitigation for Spearphishing Voice, User Training",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How did the attackers get around multi-factor authentication?",
+    "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "target_ref": "attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493",
+    "comment": "Multi-Factor Authentication Request Generation usage in the campaign",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: Can you explain me the technique Multi-Factor Authentication Request Generation?",
+    "stix_id": "attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493",
+    "comment": "Multi-Factor Authentication Request Generation",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How can you detect if the technique Multi-Factor Authentication Request Generation was applied?",
+    "stix_id": "x-mitre-detection-strategy--5dab1bc7-89e2-4fe4-ae30-40b550d0daf4",
+    "comment": "Detection of Multi-Factor Authentication Request Generation",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How did they gain initial access?",
+    "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",
+    "target_ref": [
+    "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+    "attack-pattern--bb5e59c4-abe7-40c7-8196-e373cb1e5974",
+    "attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65"
+    ],
+    "comment": "Exploit Public-Facing Application usage in the campaign, Spearphishing Voice [\"initial-access\"], Cloud Accounts",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: What does the 'Exploit Public-Facing Application' technique involve?",
+    "stix_id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+    "comment": "Exploit Public-Facing Application",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How can organizations mitigate exploitation of their internet-facing applications?",
+    "stix_id": [
+      "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",
+      "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463",
+      "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",
+      "course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266",
+      "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
+      "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3",
+      "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f",
+      "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    ],
+    "comment": "Application Isolation and Sandboxing, ...",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+    {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: How can organizations protect their internet-facing applications from exploitation?",
+    "stix_id": [
+      "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",
+      "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463",
+      "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",
+      "course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266",
+      "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
+      "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3",
+      "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f",
+      "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b"
+    ],
+    "comment": "Application Isolation and Sandboxing, ...",
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'C0027' or could be a general question about the MITRE ATT&CK framework: What tactics are observed in this campaign?",
+    "stix_id":  [
+      "x-mitre-tactic--f72804c5-f15a-449e-a5da-2eecd181f813",
+      "x-mitre-tactic--5bc1d813-693e-4823-9961-abf9af4b0e92",
+      "x-mitre-tactic--ffd5bcee-6e16-4dd2-8eca-7b3beedf33ca",
+      "x-mitre-tactic--c17c5845-175e-4421-9713-829d0573dbc9",
+      "x-mitre-tactic--5e29b093-294e-49e9-a803-dab3d73b77dd",
+      "x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592",
+      "x-mitre-tactic--78b23412-0651-46d7-a540-170a1ce8bd5a",
+      "x-mitre-tactic--2558fd61-8c75-4730-94c4-11926db2a263",
+      "x-mitre-tactic--d108ce10-2419-4cf9-a774-46161d6c6cfe",
+      "x-mitre-tactic--7141578b-e50b-4dcc-bfa4-08a8dd689e9e",
+      "x-mitre-tactic--4ca45d45-df4d-4613-8980-bac22d278fa5",
+      "x-mitre-tactic--d679bca2-e57d-4935-8650-8031c87a4400"
+    ],
+    "campaign_id": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: Who carried out this campaign?",
+    "stix_id": [
+      "campaign--808d6b30-df4e-4341-8248-724da4bac650",
+      "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542"
+    ],
+    "comment": "General Campaign and attributed Group Question",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: How can domains be compromised?",
+    "stix_id": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+    "comment": "Domains",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: How is the technique 'Domains' used in the campaign?",
+    "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",
+    "target_ref": "attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba",
+    "comment": "Domains usage in the campaign",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: How can you detect if domains have been compromised using the ‘Domains’ technique?",
+    "stix_id": "x-mitre-detection-strategy--dce8edf3-894f-4857-8f85-04db84bcebd9",
+    "comment": "Detection of Domains",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: How can organizations protect themselves from the ‘Domains’ technique?",
+    "stix_id": "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc",
+    "comment": "Mitigation for Domains, Pre-compromise",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'SolarWinds Compromise' or could be a general question about the MITRE ATT&CK framework: What mitigations exist for this campaign?",
+    "stix_id": [
+        "course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463",
+        "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",
+        "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",
+        "course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266",
+        "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",
+        "course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3",
+        "course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f",
+        "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b",
+        "course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3",
+        "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",
+        "course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485",
+        "course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462",
+        "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",
+        "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+        "course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808",
+        "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
+        "course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067",
+        "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",
+        "course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157",
+        "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c",
+        "course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1",
+        "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46",
+        "course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db",
+        "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",
+        "course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96",
+        "course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc",
+        "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448",
+        "course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9",
+        "course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9",
+        "course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312",
+        "course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea",
+        "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b"
+    ],
+    "comment": "Intent focused question, should retrieve mitigations",
+    "campaign_id": "campaign--808d6b30-df4e-4341-8248-724da4bac650"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: Who was behind this campaign?",
+    "stix_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9",
+    "comment": "General Campaign Question, no official attributed group",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: Who did the campaign target?",
+    "stix_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9",
+    "comment": "General Campaign Question",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: How can you prevent that sensitive data are moved within an organization?",
+    "stix_id": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b",
+    "comment": "Data Loss Prevention Mitigation",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: How can we detect attackers searching local files for sensitive data?",
+    "stix_id": "x-mitre-detection-strategy--36bb5edf-e7b6-4d36-8ccc-1a18ddc573da",
+    "comment": "Detection of Local Data Collection Prior to Exfiltration",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: What is the goal of the used tactic 'Command and Control'?",
+    "stix_id": "x-mitre-tactic--f72804c5-f15a-449e-a5da-2eecd181f813",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: What are the intentions behind the tactic 'Lateral Movement'?",
+    "stix_id": "x-mitre-tactic--7141578b-e50b-4dcc-bfa4-08a8dd689e9e",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'Cutting Edge' or could be a general question about the MITRE ATT&CK framework: What are sub-techniques of 'Indicator Removal'?",
+    "stix_id": [
+      "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+      "attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611"
+    ],
+    "comment": "Indicator Removal Subtechniques: File Deletion and Timestomp",
+    "campaign_id": "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: What was the goal of this campaign?",
+    "stix_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",
+    "comment": "General Campaign Question",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: How was Multi-Factor Authentication bypassed?",
+    "source_ref": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",
+    "target_ref": "attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493",
+    "comment": "Multi-Factor Authentication Request Generation",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: Can you explain me the technique Multi-Factor Authentication Request Generation?",
+    "stix_id": "attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493",
+    "comment": "Multi-Factor Authentication Request Generation",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: How can we reduce the risk of attackers bypassing multi-factor authentication?",
+    "stix_id": [
+      "course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a",
+      "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",
+      "course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c"
+    ],
+    "comment": "Account Use Policies, ..",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: What is the goal behind the tactic 'Command and Control'?",
+    "stix_id": "x-mitre-tactic--f72804c5-f15a-449e-a5da-2eecd181f813",
+      "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: Which techniques were used in the campaign?",
+    "stix_id": [
+      "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+      "attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56",
+      "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+      "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+      "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+      "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+      "attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118",
+      "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+      "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+      "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+      "attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b",
+      "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+      "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+      "attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795",
+      "attack-pattern--b6301b64-ef57-4cce-bb0b-77026f14a8db",
+      "attack-pattern--149b477f-f364-4824-b1b5-aa1d56115869",
+      "attack-pattern--d201d4cc-214d-4a74-a1ba-b3fa09fd4591",
+      "attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345",
+      "attack-pattern--5bd41255-a224-4425-a2e2-e9d293eafe1c",
+      "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+    ],
+    "comment": "Disable or Modify Tools",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+    {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: What are sub-techniques of 'Masquerading'?",
+    "stix_id": [
+      "attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c",
+      "attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2",
+      "attack-pattern--208884f1-7b83-4473-ac22-4e1cf6c41471",
+      "attack-pattern--d349c66e-18e1-4d8b-a2d7-65af7cbd2ba0"
+    ],
+    "comment": "Masquerade Task or Service is important for the campaign",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: How can organizations detect Ingress Tool Transfer?",
+    "stix_id": [
+      "x-mitre-detection-strategy--67677c4c-5778-49eb-ae74-1920645b8554"
+    ],
+    "comment": "Intent focused question, should retrieve a detection",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  },
+  {
+    "query": "The following question may pertain to the campaign named 'KV Botnet Activity' or could be a general question about the MITRE ATT&CK framework: How can organizations identify when tools are being transferred into their environment by attackers?",
+    "stix_id": [
+      "x-mitre-detection-strategy--67677c4c-5778-49eb-ae74-1920645b8554"
+    ],
+    "comment": "Intent focused question, should retrieve a detection",
+    "campaign_id": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b"
+  }
+]

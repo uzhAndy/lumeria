@@ -1,0 +1,148 @@
+{
+  "results": [
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5-20250929",
+      "question": "What is Spearphishing Voice?",
+      "latency": 26.355178117752075
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5-20250929",
+      "question": "Explain privilege escalation.",
+      "latency": 22.93172287940979
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5-20250929",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 20.477517127990723
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "question": "What is Spearphishing Voice?",
+      "latency": 15.83945083618164
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "question": "Explain privilege escalation.",
+      "latency": 13.408357858657837
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 10.912083148956299
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "question": "What is Spearphishing Voice?",
+      "latency": 18.579915046691895
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "question": "Explain privilege escalation.",
+      "latency": 13.305882930755615
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 13.410136938095093
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-large-latest",
+      "question": "What is Spearphishing Voice?",
+      "latency": 20.420715808868408
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-large-latest",
+      "question": "Explain privilege escalation.",
+      "latency": 40.104684829711914
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-large-latest",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 28.360967874526978
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "question": "What is Spearphishing Voice?",
+      "latency": 21.169193029403687
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "question": "Explain privilege escalation.",
+      "latency": 16.788591146469116
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 18.027108192443848
+    },
+    {
+      "provider": "ollama",
+      "model": "llama3.1",
+      "question": "What is Spearphishing Voice?",
+      "latency": 18.6296489238739
+    },
+    {
+      "provider": "ollama",
+      "model": "llama3.1",
+      "question": "Explain privilege escalation.",
+      "latency": 18.07413101196289
+    },
+    {
+      "provider": "ollama",
+      "model": "llama3.1",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 19.2766010761261
+    },
+    {
+      "provider": "ollama",
+      "model": "qwen2.5:14b",
+      "question": "What is Spearphishing Voice?",
+      "latency": 36.42380619049072
+    },
+    {
+      "provider": "ollama",
+      "model": "qwen2.5:14b",
+      "question": "Explain privilege escalation.",
+      "latency": 34.74855709075928
+    },
+    {
+      "provider": "ollama",
+      "model": "qwen2.5:14b",
+      "question": "What was the goal of the C0027 campaign?",
+      "latency": 33.5688591003418
+    }
+  ],
+  "averages": {
+    "per_provider": {
+      "anthropic": 23.25480604171753,
+      "openai": 14.242637793223063,
+      "mistral": 24.14521014690399,
+      "ollama": 26.78693389892578
+    },
+    "overall": 21.94348138854617,
+    "per_model": {
+      "anthropic::claude-sonnet-4-5-20250929": 23.25480604171753,
+      "openai::gpt-4o": 13.386630614598593,
+      "openai::gpt-4o-mini": 15.098644971847534,
+      "mistral::mistral-large-latest": 29.6287895043691,
+      "mistral::mistral-small-latest": 18.661630789438885,
+      "ollama::llama3.1": 18.66012700398763,
+      "ollama::qwen2.5:14b": 34.91374079386393
+    }
+  }
+}

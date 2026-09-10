@@ -1,0 +1,51 @@
+{
+  "model_summary": {
+    "anthropic::claude-sonnet-4-5-20250929": {
+      "average_grade_score": 3.6666666666666665,
+      "grade_distribution": {
+        "Excellent": 2,
+        "Good": 1
+      }
+    },
+    "openai::gpt-4o": {
+      "average_grade_score": 3.3333333333333335,
+      "grade_distribution": {
+        "Good": 2,
+        "Excellent": 1
+      }
+    },
+    "openai::gpt-4o-mini": {
+      "average_grade_score": 3.6666666666666665,
+      "grade_distribution": {
+        "Good": 1,
+        "Excellent": 2
+      }
+    },
+    "mistral::mistral-large-latest": {
+      "average_grade_score": 4.0,
+      "grade_distribution": {
+        "Excellent": 3
+      }
+    },
+    "mistral::mistral-small-latest": {
+      "average_grade_score": 3.3333333333333335,
+      "grade_distribution": {
+        "Good": 2,
+        "Excellent": 1
+      }
+    },
+    "ollama::llama3.1": {
+      "average_grade_score": 3.0,
+      "grade_distribution": {
+        "Good": 3
+      }
+    },
+    "ollama::qwen2.5:14b": {
+      "average_grade_score": 3.6666666666666665,
+      "grade_distribution": {
+        "Excellent": 2,
+        "Good": 1
+      }
+    }
+  }
+}

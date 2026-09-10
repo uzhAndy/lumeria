@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+.venv
+.idea/
+
+# OS
+.DS_Store
+/container_data/

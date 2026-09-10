@@ -1,0 +1,110 @@
+{
+  "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b": {
+    "ranking": [
+      {
+        "model": "gpt-4o",
+        "tactic": "persistence",
+        "rank": 1,
+        "grade": "Excellent",
+        "rationale": "The story is clear, complete, and engaging. It explains the tactic and technique in detail, including how it affects defenders and the potential for privilege escalation. The professional tone and comprehensive coverage make it highly usable."
+      },
+      {
+        "model": "claude-sonnet-4-5-20250929",
+        "tactic": "persistence",
+        "rank": 2,
+        "grade": "Good",
+        "rationale": "The explanation is clear and detailed, with a focus on the impact on defenders and the business. However, it lacks some engagement and broader context compared to the top-ranked story."
+      },
+      {
+        "model": "gpt-4o-mini",
+        "tactic": "persistence",
+        "rank": 3,
+        "grade": "Good",
+        "rationale": "The story is clear and covers the main points well, including the potential for privilege escalation. However, it is slightly less engaging and detailed than the top-ranked story."
+      },
+      {
+        "model": "llama3.1",
+        "tactic": "persistence",
+        "rank": 4,
+        "grade": "Fair",
+        "rationale": "The story provides a clear explanation but lacks engagement and some depth in explaining the broader implications of the tactic. It is informative but not as comprehensive as higher-ranked stories."
+      },
+      {
+        "model": "mistral-small-latest",
+        "tactic": "persistence",
+        "rank": 5,
+        "grade": "Fair",
+        "rationale": "The story is clear and uses an engaging analogy, but it lacks depth and completeness in explaining the tactic and its implications. It is less informative than higher-ranked stories."
+      },
+      {
+        "model": "qwen2.5:14b",
+        "tactic": "persistence",
+        "rank": 6,
+        "grade": "Fair",
+        "rationale": "The story is clear and uses a relatable analogy, but it is brief and lacks detail on the broader impact and technical aspects of the tactic. It is less comprehensive than other stories."
+      },
+      {
+        "model": "mistral-large-latest",
+        "tactic": "persistence",
+        "rank": 7,
+        "grade": "Poor",
+        "rationale": "The story is overly simplistic and lacks detail and depth. It provides a basic explanation but does not cover the tactic's implications or technical aspects sufficiently."
+      }
+    ],
+    "overall_impression": "The stories generally provide a clear understanding of the persistence tactic, with varying levels of detail and engagement. The top stories are comprehensive and professional, while lower-ranked ones lack depth and completeness. Overall, the usability of the stories ranges from excellent to poor, with room for improvement in clarity and completeness in some cases."
+  },
+  "campaign--4fdd2487-26c1-494e-8702-ec5abe9aa1d9": {
+    "ranking": [
+      {
+        "model": "claude-sonnet-4-5-20250929",
+        "tactic": "persistence",
+        "rank": 1,
+        "grade": "Excellent",
+        "rationale": "The story is clear, complete, and engaging. It uses relatable analogies and explains technical terms effectively, making it accessible to a broad audience."
+      },
+      {
+        "model": "gpt-4o",
+        "tactic": "persistence",
+        "rank": 2,
+        "grade": "Good",
+        "rationale": "The explanation is clear and professional, with good use of analogies. However, it is slightly less engaging than the top-ranked story."
+      },
+      {
+        "model": "mistral-large-latest",
+        "tactic": "persistence",
+        "rank": 3,
+        "grade": "Good",
+        "rationale": "The story is clear and uses effective analogies, but it lacks some depth in explaining the impact of the tactics."
+      },
+      {
+        "model": "gpt-4o-mini",
+        "tactic": "persistence",
+        "rank": 4,
+        "grade": "Good",
+        "rationale": "The story is clear and concise, but it lacks the engaging style and depth of explanation found in higher-ranked stories."
+      },
+      {
+        "model": "mistral-small-latest",
+        "tactic": "persistence",
+        "rank": 5,
+        "grade": "Fair",
+        "rationale": "The story is clear but lacks engagement and depth. It provides basic explanations without much elaboration."
+      },
+      {
+        "model": "llama3.1",
+        "tactic": "persistence",
+        "rank": 6,
+        "grade": "Fair",
+        "rationale": "The story is somewhat clear but overly simplistic and lacks engagement. It does not provide enough depth or professional tone."
+      },
+      {
+        "model": "qwen2.5:14b",
+        "tactic": "persistence",
+        "rank": 7,
+        "grade": "Poor",
+        "rationale": "The story is vague and lacks clarity and engagement. It does not provide sufficient detail or explanation of the tactics."
+      }
+    ],
+    "overall_impression": "The stories generally provide a clear understanding of the persistence tactic, with varying levels of engagement and depth. The top stories effectively use analogies and explanations to make the content accessible, while lower-ranked stories lack depth and engagement."
+  }
+}
